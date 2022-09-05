@@ -2,5 +2,5 @@ homepage: "https://www.markus-baersch.de"
 documentation: "https://github.com/mbaersch/ecommerce-value#readme"
 versions:
   # Latest version
-  - sha: xxxxxxxxx
+  - sha: d198739f99567800a59b9be3a60d76571e4c72eb
     changeNotes: Initial release.
