@@ -4,7 +4,7 @@
 
 Calculates value for e-commerce items or products array using price, discount, quantity
 
-[![Template Status](https://img.shields.io/badge/Community%20Template%20Gallery%20Status-published-green)](https://tagmanager.google.com/gallery/#/owners/mbaersch/templates/ecommerce-value) ![Repo Size](https://img.shields.io/github/repo-size/mbaersch/ecommerce-value) ![License](https://img.shields.io/gihub/license/mbaersch/ecommerce-value)
+[![Template Status](https://img.shields.io/badge/Community%20Template%20Gallery%20Status-published-green)](https://tagmanager.google.com/gallery/#/owners/mbaersch/templates/ecommerce-value) ![Repo Size](https://img.shields.io/github/repo-size/mbaersch/ecommerce-value) ![License](https://img.shields.io/github/license/mbaersch/ecommerce-value)
 
 ---
 
