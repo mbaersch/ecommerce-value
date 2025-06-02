@@ -2,5 +2,8 @@ homepage: "https://www.markus-baersch.de"
 documentation: "https://github.com/mbaersch/ecommerce-value#readme"
 versions:
   # Latest version
+  - sha: b55b9e690a732b76a955a42318eb47941e8c61fa
+    changeNotes: Optimized compatibility for different dataLayer formats.
+  # Older versions
   - sha: d198739f99567800a59b9be3a60d76571e4c72eb
     changeNotes: Initial release.
