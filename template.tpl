@@ -35,11 +35,14 @@ ___TEMPLATE_PARAMETERS___
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
+const makeNumber = require("makeNumber");
 var items = data.inputArray||[];
 if (typeof(items) === "string") items = require("JSON").parse(items);
-var res = items.reduce(function(prev, item){return prev + ((item.price - (item.discount||0)) * item.quantity||1);}, 0)||0;
-return require("Math").round(res * 100) / 100;
-
+if (!items) return 0;
+if (!items.reduce) {
+  var res = items.reduce(function(prev, item){return prev + ((makeNumber(item.price) - (makeNumber(item.discount)||0)) * (makeNumber(item.quantity)||1));}, 0)||0;
+  return require("Math").round(res * 100) / 100;
+} else return 0;
 
 ___TESTS___
 
